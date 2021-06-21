@@ -1,4 +1,4 @@
-# TASK - 6.1
+# TASK - 6.2
 
 # Import Module Used to Send Whatsapp Message
 ! pip install pywhatkit
@@ -10,7 +10,7 @@ pywhatkit.sendwhatmsg ( "Friend's Phone Number", "Message",Hour ,Minute )
 # To Confirm Message Send or Not
 print ("Message Sent...")
 
-# TASK - 6.2
+# TASK - 6.3
 
 
 # Import Module Used to Send SMS
@@ -18,8 +18,8 @@ print ("Message Sent...")
 from twilio.rest import Client as cl
 
 # Storing ACCOUNT_SID and AUTH_TOKEN provided in Twilio Account
-x = ACCOUNT_SID = "ACb983d0fd11dd1ef65d8d08efcab2ca81"
-y = AUTH_TOKEN = "e148f0cf3720f48bfeca25ec02095868"
+x = "ACCOUNT_SID"
+y = "AUTH_TOKEN"
 client = cl (x,y)
 
 # Sending SMS
